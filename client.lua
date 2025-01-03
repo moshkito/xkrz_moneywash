@@ -42,7 +42,7 @@ function openmenu()
         local count = exports.ox_inventory:Search('count', Config.WashMoney)
         if count >= input[1] then
             local alert = lib.alertDialog({
-                content = 'Bist du dir sicher?  \n Du wäscht ' .. input[1] .. '$ Schwarzgeld und bekommst ' .. math.floor(input[1] / Config.Prozent) .. '$!',
+                content = 'Bist du dir sicher?  \n Du wäscht ' .. input[1] .. '$ Schwarzgeld und bekommst ' .. math.floor(input[1] * (1 - Config.Prozent / 100)) .. '$!',
                 centered = true,
                 cancel = true
             })
