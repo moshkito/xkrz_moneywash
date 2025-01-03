@@ -11,6 +11,6 @@ Config.Locale = {
     'Du hast kein Schwarzgeld zum waschen.',
     'Abgebrochen.',
     'Wasche Geld...',
-    '~25% Abzug!',
+    '20% Abzug!',
     'Du hast nicht genug Schwarzgeld bei dir.'
 }
