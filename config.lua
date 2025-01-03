@@ -2,7 +2,7 @@ Config = {}
 
 Config.Debug = false
 Config.Duration = 7000                      -- Die Dauer wie lange das waschen dauern soll. 1000 = 1 Sekunde
-Config.Prozent = 1.33                       -- Wie viel abgezogen werden soll. Also den "Input" : 1.33 = ~25%
+Config.Prozent = 20                         -- Wie viel abgezogen werden soll in %.
 Config.WashMoney = 'black_money'            -- Das Item das ihr waschen moechtet.
 Config.WashedMoney = 'money'                -- Das Item welches ihr am Ende bekommt.
 
